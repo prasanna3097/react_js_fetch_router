@@ -31,7 +31,7 @@ class BlogList extends Component {
   render() {
     const {blogsData, isLoading} = this.state
     return (
-      <div className="blog-list-container" data-testid="loader">
+      <div className="blog-list-container">
         {isLoading ? (
           <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
         ) : (
